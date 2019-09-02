@@ -11,8 +11,9 @@ var SimpleMQTTPlugin_1 = require("./plugins/SimpleMQTTPlugin");
 var SimpleMQTTPluginDoor_1 = require("./plugins/SimpleMQTTPluginDoor");
 var SimpleMQTTPluginMotion_1 = require("./plugins/SimpleMQTTPluginMotion");
 var SimpleMQTTPluginHumidi_1 = require("./plugins/SimpleMQTTPluginHumidi");
+var SimpleMQTTPluginClimate_1 = require("./plugins/SimpleMQTTPluginClimate");
 var VorwerkKoboldPlugin_1 = require("./plugins/VorwerkKoboldPlugin");
-var pluginPresets = { SimpleHTTPPlugin: SimpleHTTPPlugin_1.SimpleHTTPPlugin, SimpleCMDPlugin: SimpleCMDPlugin_1.SimpleCMDPlugin, FritzBoxPlugin: FritzBoxPlugin_1.FritzBoxPlugin, SimpleMQTTPluginHumidi: SimpleMQTTPluginHumidi_1.SimpleMQTTPluginHumidi, SimpleMQTTPluginMotion: SimpleMQTTPluginMotion_1.SimpleMQTTPluginMotion, SimpleMQTTPluginDoor: SimpleMQTTPluginDoor_1.SimpleMQTTPluginDoor, SimpleMQTTPlugin: SimpleMQTTPlugin_1.SimpleMQTTPlugin, VorwerkKoboldPlugin: VorwerkKoboldPlugin_1.VorwerkKoboldPlugin };
+var pluginPresets = { SimpleHTTPPlugin: SimpleHTTPPlugin_1.SimpleHTTPPlugin, SimpleCMDPlugin: SimpleCMDPlugin_1.SimpleCMDPlugin, FritzBoxPlugin: FritzBoxPlugin_1.FritzBoxPlugin, SimpleMQTTPluginClimate: SimpleMQTTPluginClimate_1.SimpleMQTTPluginClimate, SimpleMQTTPluginHumidi: SimpleMQTTPluginHumidi_1.SimpleMQTTPluginHumidi, SimpleMQTTPluginMotion: SimpleMQTTPluginMotion_1.SimpleMQTTPluginMotion, SimpleMQTTPluginDoor: SimpleMQTTPluginDoor_1.SimpleMQTTPluginDoor, SimpleMQTTPlugin: SimpleMQTTPlugin_1.SimpleMQTTPlugin, VorwerkKoboldPlugin: VorwerkKoboldPlugin_1.VorwerkKoboldPlugin };
 var HomeeUp = /** @class */ (function () {
     function HomeeUp() {
         this.hostPort = 2001;
